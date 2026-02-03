@@ -1,12 +1,8 @@
 // Modo de Uso:
 // 1. Compile e Execute o código (Dê preferência na utilização do Dev C++)
-// 2. Ao inicializar o código, será criado automaticamente um arquivo chamado "Entrada.asm", antes de realizar qualquer
-//    ação no terminal do código, entre no arquivo, por meio de um bloco de notas e edite conforme o desejado, 
-//    ao finalizar a edição, feche o arquivo e no terminal clique no <ENTER> para dar continuidade
-// 3. Ao dar sequência no terminal, um arquivo será automaticamente criado, denominado "Saida.mem", onde o conteúdo convertido
-//    pelo código do arquivo "Entrada.asm", será transferido para o "Saida.mem". IMPORTANTE: O output do arquivo é em Decimal
-// 4. Assim que o processo finalizar, saia do terminal do código, abra o Neander e carrege o arquivo "Saida.mem", dessa forma
-//    o código desejado será apresentado
+// 2. Ao inicializar o código, será criado automaticamente um arquivo chamado "Entrada.asm", antes de realizar qualquer ação no terminal do código, entre no arquivo, por meio de um bloco de notas e edite conforme o desejado, ao finalizar a edição, feche o arquivo e no terminal clique no <ENTER> para dar continuidade
+// 3. Ao dar sequência no terminal, um arquivo será automaticamente criado, denominado "Saida.mem", onde o conteúdo convertido pelo código do arquivo "Entrada.asm", será transferido para o "Saida.mem". IMPORTANTE: O output do arquivo é em Decimal
+// 4. Assim que o processo finalizar, saia do terminal do código, abra o Neander e carrege o arquivo "Saida.mem", dessa forma o código desejado será apresentado
 
 #include <stdio.h>   // Para operações de arquivo (fopen, fclose, fprintf, etc.).
 #include <stdlib.h>  // Para exit, etc.
